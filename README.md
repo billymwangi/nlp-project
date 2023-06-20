@@ -94,19 +94,20 @@ Next Steps
 
 
 Collaborators
+
 The project was a collaborative effort, and the following people contributed their expertise:
 
-Billy Mwangi
+    Billy Mwangi
 
-Fiona Njuguna
+    Fiona Njuguna
 
-Kinoti Mwenda
+    Kinoti Mwenda
 
-Mary Wairimu
+    Mary Wairimu
 
-Patrick Okore
+    Patrick Okore
 
-Nyokabi Waiganjo
+    Nyokabi Waiganjo
 
-Brain Njau
+    Brain Njau
 
