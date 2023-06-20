@@ -11,10 +11,6 @@ Stakeholder:
 
  A marketing team at a technology company.
 
-Project Overview 
-
-The main aim of this project is to analyze the tweet-product-dataset, obtained from Twitter. Through this analysis, we are to achieve the following: • Identify some of the sentiments associated with the tweets of the various products. • Process the data and analyze it to determine its key characteristics. • Come up with a model that accurately evaluates and predicts the sentiments towards given product lines.
-
 Business Overview
 
 Let’s understand a Sentiment Analysis problem from a business standpoint. The good news is: with the power of the internet, businesses today get a huge number of customer feedback through their business website, social media page, business listings, etc. However, the bad news is: a majority of businesses do not even know how to use this information to improve themselves.
@@ -51,11 +47,21 @@ The data is in CSV format. In computing, a comma-separated values (CSV) file sto
 Attribute Information
 tweet text: The tweets in the given dataset
 emotion in a tweet is directed at The tweets collected from various sources and the types of devices associated with('Negative emotion or positive emotion)
-emotion directed at a brand or product:  having either positive or negative sentiments associated with Google and apple products.
+emotion directed at a brand or product:  having either positive or negative sentiments associated with Google and Apple products.
 
 Project Overview
 
-The goal of this project is to develop a sentiment analysis model that can automatically classify customer reviews as positive, negative, or neutral. This model will help businesses quickly understand customer sentiment on a larger scale.
+Project Overview 
+The main aim of this project is to analyze the tweet-product-dataset, obtained from Twitter. 
+
+Through this analysis, we are to achieve the following: 
+
+Identify some of the sentiments associated with the tweets of the various products. 
+
+ Process the data and analyze it to determine its key characteristics. 
+ 
+Come up with a model that accurately evaluates and predicts the sentiments towards given product lines.
+
 
 The project involves the following steps:
 Data preparation: The dataset is split into training and testing sets. The training set is used to train the model, and the testing set is used to evaluate the model's performance.
