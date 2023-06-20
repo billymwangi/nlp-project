@@ -103,7 +103,7 @@ Collaborators
 
 The project was a collaborative effort, and the following people contributed their expertise:
 
-    Billy Mwangi
+    Billy Mwangi 
 
     Fiona Njuguna
 
@@ -116,4 +116,6 @@ The project was a collaborative effort, and the following people contributed the
     Nyokabi Waiganjo
 
     Brain Njau
+
+
 
