@@ -1,35 +1,32 @@
-# nlp-project
+# Twitter sentiment natural language processing analysis.
 
-Twitter sentiment natural language processing analysis.
 
 ![twitter-sentiment-analysis](https://github.com/billymwangi/nlp-project/assets/70520367/4b00223b-7b80-4471-8656-7340fa701568)
 
 
-
-
-Stakeholder:
+## Stakeholder:
 
  A marketing team at a technology company.
 
-Business Overview
+# Business Overview
 
 Let’s understand a Sentiment Analysis problem from a business standpoint. The good news is: with the power of the internet, businesses today get a huge number of customer feedback through their business website, social media page, business listings, etc. However, the bad news is: a majority of businesses do not even know how to use this information to improve themselves.
 
-Business Problem 
+# Business Problem 
 
 Our team has been tasked by our stakeholders to build a model that focuses on understanding consumer sentiment toward Apple and Google products. The objective is to gain deep insights into the emotions and sentiments expressed by users of Apple and Google products. This analysis will provide valuable information to drive marketing strategies, enhance brand perception, and improve customer satisfaction initiatives specifically tailored to our target audience. 
 
-Objectives
+# Objectives
 
 Our main objective is to build a specialized sentiment analysis model designed to specifically analyze Twitter sentiments pertaining to Google and Apple products. 
 
-The specific business objectives to be answered include:
+### The specific business objectives to be answered include:
 
 What is the overall sentiment towards Apple and Google products on Twitter?
 Are there any recurring themes or topics associated with positive or negative sentiments towards these brands?
 Are there any notable differences in sentiment between Apple and Google products?
 
-Why is Twitter Sentiment Analysis Important?
+### Why is Twitter Sentiment Analysis Important?
 
 Understanding Customer Feedback: By analyzing the sentiment of customer feedback, companies can identify areas where they need to improve their products or services.
 
@@ -41,17 +38,21 @@ Crisis Management: In the event of a crisis, sentiment analysis can help organiz
 
 Marketing Research: Sentiment analysis can help marketers understand consumer behavior and preferences, and develop targeted advertising campaigns
 
-Dataset Description
+# Dataset Description
 
 The data is in CSV format. In computing, a comma-separated values (CSV) file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas.
+
 Attribute Information
+
 tweet text: The tweets in the given dataset
+
 emotion in a tweet is directed at The tweets collected from various sources and the types of devices associated with('Negative emotion or positive emotion)
+
 emotion directed at a brand or product:  having either positive or negative sentiments associated with Google and Apple products.
 
-Project Overview
 
-Project Overview 
+# Project Overview 
+
 The main aim of this project is to analyze the tweet-product-dataset, obtained from Twitter. 
 
 Through this analysis, we are to achieve the following: 
@@ -63,7 +64,7 @@ Identify some of the sentiments associated with the tweets of the various produc
 Come up with a model that accurately evaluates and predicts the sentiments towards given product lines.
 
 
-The project involves the following steps:
+### The project involves the following steps:
 Data preparation: The dataset is split into training and testing sets. The training set is used to train the model, and the testing set is used to evaluate the model's performance.
 Feature extraction: Various techniques are used to convert text reviews into numerical features that can be used by machine learning algorithms. These techniques include bag-of-words, TF-IDF, and word embeddings.
 Model selection: Different machine learning algorithms are experimented with to find the best-performing model. These algorithms include logistic regression, support vector machines, and neural networks.
@@ -82,7 +83,7 @@ Vectorization Techniques
 Term Frequency-Inverse Document Frequency (TF-IDF Vectorizer)
 Classification Models
 
-Evaluation
+# Evaluation
 
 To evaluate our NLP sentiment analysis model, we used a variety of evaluation metrics to conduct thorough testing and analysis. The results of these evaluations provide insights into the effectiveness of our approach.
 Here is a breakdown of the key terms in the original text:
@@ -92,14 +93,14 @@ NLP sentiment analysis model: A model that can automatically customer reviews as
 Evaluation metrics: Measures that are used to assess the performance of a model.
 Insights: Understandings or realizations that are gained from our data.
 
-Conclusion
+# Conclusion
 
-Recommendations
+# Recommendations
 
-Next Steps
+# Next Steps
 
 
-Collaborators
+# Collaborators
 
 The project was a collaborative effort, and the following people contributed their expertise:
 
