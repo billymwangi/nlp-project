@@ -1,4 +1,4 @@
-# Twitter sentiment natural language processing analysis.
+# Twitter sentiment natural language processing analysis for Google Products.
 
 
 ![twitter-sentiment-analysis](https://github.com/billymwangi/nlp-project/assets/70520367/4b00223b-7b80-4471-8656-7340fa701568)
@@ -119,6 +119,7 @@ Classification Models
 ## Success Metrics
 
 The team decided to use accuracy as the performance metric for the models. This is the case as we give equal importance to correctly identifying each sentiment. This is because although it seems, from a business perspective, correctly identifying neutral and negative tweets is more important than correctly identifying positive sentiment tweets, these categories are codependent on each other as there are three sentiment categories.
+Our success metric for our project is 60% model accuracy.
 
 
 # Evaluation
@@ -133,10 +134,35 @@ Insights: Understandings or realizations that are gained from our data.
 
 # Conclusion
 
+The main objective of this project was to create a model that can classify Twitter product reviews/ tweets into the appropriate sentiments-positive, negative, and neutral. Through this project, we have met this objective, and also obtained the following results:
+
+- Most of the customers have neutral emotions towards the products, followed by those with positive emotions. There are customers with negative emotions as well.
+- 
+- The most reviewed/tweeted about products are Apple followed by Google products which are expected in the US market demographic.
+- 
+- The accuracy of predicting the product user sentiment is at around `61%`, following the best modeling outcome, after optimizing through tuning. This meets our success metric of `60%` accuracy.
+
 # Recommendations
 
+Based on the above conclusions, we recommend the following:
+
+- The stakeholders should target majorly the users whose sentiments towards their products are negative so as to retain and further add to their customer base.
+- 
+- Our model will help the team to access faster and real-time insights on product reviews since they won't do this manually anymore.
+- 
+- Knowing the number and actual positive sentiment tweets will  enable the team to reinforce these positive attributes in advertising via consumer testimonials. This will serve to boost brand credibility and boost sales among new customers.
+- 
+- Knowing the number and actual negative sentiment tweets will enable the team to know what product improvements to make, and to reach out to consumers with the issues to have them sorted out. This will reduce customer churn.
+- 
+- We also expect that the team will have better customer engagement since they will be responding with strategies based on the voice of the customer. This will make customers feel heard and improve loyalty and engagement with the brand.
+  
 # Next Steps
 
+Try to use neural networks and transfer learning to improve the accuracy of the model.
+
+- Deploy the model to enable the marketing team to have an interface to work with.
+ 
+- Develop dashboards to enable the real-time display of insights gleaned from customers' product reviews/tweets.
 
 # Collaborators
 
