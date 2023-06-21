@@ -12,17 +12,26 @@
 
 Let’s understand a Sentiment Analysis problem from a business standpoint. The good news is: with the power of the internet, businesses today get a huge number of customer feedback through their business website, social media page, business listings, etc. However, the bad news is: a majority of businesses do not even know how to use this information to improve themselves.
 
-# Business Problem 
+# Business Problem Statement
+The marketing team wants to understand consumer sentiment toward Apple and Google products. They wish to explore emotions, and sentiments expressed by users of Apple and Google products. They need insights that can inform marketing strategies, brand perception, and customer satisfaction initiatives for their target audience.
 
-Our team has been tasked by our stakeholders to build a model that focuses on understanding consumer sentiment toward Apple and Google products. The objective is to gain deep insights into the emotions and sentiments expressed by users of Apple and Google products. This analysis will provide valuable information to drive marketing strategies, enhance brand perception, and improve customer satisfaction initiatives specifically tailored to our target audience. 
+Currently, the marketing team collects sentiments manually by having a team classify each tweet as either positive, negative, or neutral. This is both expensive and takes a lot of time. It also means the team doesn’t get real-time information to make quick and strategic course-corrections
 
-# Objectives
+The answer to the question of manual sentiment analysis is automation. Automating the process of sentiment analysis will also ensure that the team is able to get real-time sentiment insights -e.g. on a biweekly basis:
 
-Our main objective is to build a specialized sentiment analysis model designed to specifically analyze Twitter sentiments pertaining to Google and Apple products. 
+Knowing the number and actual positive sentiment tweets can enable the team to reinforce these positive attributes in advertising via consumer testimonials. This will serve to boost brand credibility and boost sales among new customers
 
-### The specific business objectives to be answered include:
+Knowing the number and actual negative sentiment tweets will enable the team to know what product improvements to make, and to reach out to consumers with the issues to have them sorted out. This will reduce customer churn
 
-What is the overall sentiment towards Apple and Google products on Twitter?
+## The main business objective is:
+
+How do we use available data to create a model that will be able to classify future tweets with the correct sentiments?
+This will save the team both time and money by moving away from the manual process
+This will also help grow loyalty and sales, as articulated above in the problem statement
+
+The specific business objectives to be answered include:
+
+## What is the overall sentiment towards Apple and Google products on Twitter?
 Are there any recurring themes or topics associated with positive or negative sentiments towards these brands?
 Are there any notable differences in sentiment between Apple and Google products?
 
@@ -37,6 +46,16 @@ Political Analysis: Sentiment analysis can help political campaigns understand p
 Crisis Management: In the event of a crisis, sentiment analysis can help organizations monitor social media and news outlets for negative sentiment and respond appropriately.
 
 Marketing Research: Sentiment analysis can help marketers understand consumer behavior and preferences, and develop targeted advertising campaigns
+
+## Data Understanding
+
+We work with the Twitter sentiment dataset that involves customers' emotions and tweets towards different brands and products.
+The dataset contains 9000 columns and 3 rows
+With the columns being :
+tweet: Has the tweet text and message from customers
+is_there_an_emotion_directed_at_a_brand_or_product: has either positive, negative,no emotion, can't tell
+brand/product: that included iPhone,iPad, google
+
 
 # Dataset Description
 
@@ -65,11 +84,25 @@ Come up with a model that accurately evaluates and predicts the sentiments towar
 
 
 ### The project involves the following steps:
-Data preparation: The dataset is split into training and testing sets. The training set is used to train the model, and the testing set is used to evaluate the model's performance.
-Feature extraction: Various techniques are used to convert text reviews into numerical features that can be used by machine learning algorithms. These techniques include bag-of-words, TF-IDF, and word embeddings.
-Model selection: Different machine learning algorithms are experimented with to find the best-performing model. These algorithms include logistic regression, support vector machines, and neural networks.
-Model training and evaluation: The selected model is trained on the training data and evaluated on the testing data. The model's performance is assessed using evaluation metrics such as accuracy, precision, recall, and F1 score.
-Model deployment: Once the model is performing well, it is deployed to make predictions on new, unseen customer reviews. The model is integrated into a user-friendly interface or API for real-time sentiment analysis.
+Data preparation:
+
+The dataset is split into training and testing sets. The training set is used to train the model, and the testing set is used to evaluate the model's performance.
+
+Feature extraction: 
+
+Various techniques are used to convert text reviews into numerical features that can be used by machine learning algorithms. These techniques include bag-of-words, TF-IDF, and word embeddings.
+
+Model selection: 
+
+Different machine learning algorithms are experimented with to find the best-performing model. These algorithms include logistic regression, support vector machines, and neural networks.
+
+Model training and evaluation: 
+
+The selected model is trained on the training data and evaluated on the testing data. The model's performance is assessed using evaluation metrics such as accuracy, precision, recall, and F1 score.
+
+Model deployment: 
+
+Once the model is performing well, it is deployed to make predictions on new, unseen customer reviews. The model is integrated into a user-friendly interface or API for real-time sentiment analysis.
 
 The goal of this project is to provide businesses with valuable insights into customer sentiment. This information can be used to make data-driven decisions, improve customer satisfaction, and enhance brand reputation.
 
@@ -82,6 +115,11 @@ Lemmatization was used to reduce words to their common root form
 Vectorization Techniques
 Term Frequency-Inverse Document Frequency (TF-IDF Vectorizer)
 Classification Models
+
+## Success Metrics
+
+The team decided to use accuracy as the performance metric for the models. This is the case as we give equal importance to correctly identifying each sentiment. This is because although it seems, from a business perspective, correctly identifying neutral and negative tweets is more important than correctly identifying positive sentiment tweets, these categories are codependent on each other as there are three sentiment categories.
+
 
 # Evaluation
 
