@@ -74,11 +74,18 @@ The main aim of this project is to analyze the tweet-product-dataset, obtained f
 
 Through this analysis, we are to achieve the following:
 
+we plotted the most frequent word distribution across different sentiments
+
+![db3ac5cf-bca8-41f3-bec6-f9010994d65d](https://github.com/billymwangi/nlp-project/assets/70520367/3698e781-2059-4031-9e06-616bdf19e0e6)
+
 Identify some of the sentiments associated with the tweets of the various products.
 
 Process the data and analyze it to determine its key characteristics.
 
 Come up with a model that accurately evaluates and predicts the sentiments towards given product lines.
+
+![48813b17-81e0-488f-adab-b276bee433a0](https://github.com/billymwangi/nlp-project/assets/70520367/46e1fb4d-fa0c-48e5-b8c9-62d7f206e640)
+
 
 ### The project involves the following steps:
 
@@ -98,24 +105,30 @@ Model training and evaluation:
 
 The selected model is trained on the training data and evaluated on the testing data. The model's performance is assessed using evaluation metrics such as accuracy, precision, recall, and F1 score.
 
-Model deployment:
-
-Once the model is performing well, it is deployed to make predictions on new, unseen customer reviews. The model is integrated into a user-friendly interface or API for real-time sentiment analysis.
-
 The goal of this project is to provide businesses with valuable insights into customer sentiment. This information can be used to make data-driven decisions, improve customer satisfaction, and enhance brand reputation.
 
 In addition to the steps mentioned above, the following data preprocessing steps were performed:
 
 Special characters were removed.
+
 Stopwords were removed.
+
 Tokenization was performed.
+
 Lemmatization was used to reduce words to their common root form
+
 Vectorization Techniques
+
 Term Frequency-Inverse Document Frequency (TF-IDF Vectorizer)
+
 Classification Models
 
-## Success Metrics
+we plotted word clouds for different sentiments
 
+
+![fb17bb66-3425-4c05-9846-d80a2108b445](https://github.com/billymwangi/nlp-project/assets/70520367/4581bad0-05ef-4280-92b1-be013857248c)
+
+## Success Metrics
 The team decided to use accuracy as the performance metric for the models. This is the case as we give equal importance to correctly identifying each sentiment. This is because although it seems, from a business perspective, correctly identifying neutral and negative tweets is more important than correctly identifying positive sentiment tweets, these categories are codependent on each other as there are three sentiment categories.
 Our success metric for our project is 60% model accuracy.
 
