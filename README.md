@@ -176,7 +176,7 @@ Try to use neural networks and transfer learning to improve the accuracy of the 
 
 ##### Note on our Next steps
 
-- We found some time to also run another model(a neural network model) -RoBERT(Robustly Optimized BERT approach) is a state-of-the-art natural language processing (NLP) model- on our data this model achieved an accuracy of `65%`
+- We found some time to also run another model(a neural network model) -RoBERT(Robustly Optimized BERT approach) is a state-of-the-art natural language processing (NLP) model- on our data this model achieved an accuracy of `66%`
 - code for that model is included here- [ROBERTA-MODEL](roberta.ipynb)
 
 # Collaborators
